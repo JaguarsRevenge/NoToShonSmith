@@ -1,0 +1,449 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<meta name="robots" content="noindex, nofollow">
+<meta name="description" content="Shon Smith's record as chair of the Chelan County Board of Commissioners: deficit budgets, late and inaccurate financial reports, a hiring freeze, and a tax break for a few, set against Clint Strand.">
+<meta property="og:title" content="The Smith Record">
+<meta property="og:description" content="He runs the board. Look at the books. Know the record before you vote Nov 3.">
+<style>html,body{margin:0}img{max-width:100%}[hidden]{display:none!important}</style>
+<title>The Smith Record</title>
+<style>
+@font-face{font-family:"Big Shoulders Display";font-style:normal;font-weight:600 800;font-display:swap;src:url(assets/fonts/big-shoulders-display-latin.woff2) format("woff2")}
+@font-face{font-family:"Source Serif 4";font-style:normal;font-weight:400 600;font-display:swap;src:url(assets/fonts/source-serif-4-latin.woff2) format("woff2")}
+@font-face{font-family:"IBM Plex Mono";font-style:normal;font-weight:400;font-display:swap;src:url(assets/fonts/ibm-plex-mono-400-latin.woff2) format("woff2")}
+@font-face{font-family:"IBM Plex Mono";font-style:normal;font-weight:600;font-display:swap;src:url(assets/fonts/ibm-plex-mono-600-latin.woff2) format("woff2")}
+</style>
+<style>
+:root{
+  --ground:#F3F6F5;
+  --paper:#FFFFFF;
+  --ink:#10232E;
+  --ink-2:#3C5260;
+  --muted:#6A7C86;
+  --rule:#D5DFE0;
+  --lake:#0B6F7C;
+  --lake-soft:#DDEFF0;
+  --flag:#C0501F;
+  --flag-soft:#FBE9DF;
+  --c-in:#0B8C7C;
+  --c-metro:#D0582A;
+  --c-oos:#3B5BB5;
+  --c-other:#A3AEB3;
+  --bar:#3C5260;
+  --display:"Big Shoulders Display","Arial Narrow",Impact,sans-serif;
+  --body:"Source Serif 4",Georgia,"Times New Roman",serif;
+  --mono:"IBM Plex Mono",ui-monospace,Consolas,monospace;
+}
+@media (prefers-color-scheme:dark){
+  :root:not([data-theme="light"]){
+    color-scheme:dark;
+    --ground:#0C171E;--paper:#122029;--ink:#E6EEF0;--ink-2:#B3C3CA;--muted:#8499A3;--rule:#26394A;
+    --lake:#4FC0C8;--lake-soft:#133239;--flag:#EE8453;--flag-soft:#33211A;
+    --c-in:#23A08F;--c-metro:#DE6A3A;--c-oos:#5F7FD0;--c-other:#5C6B73;--bar:#8FA7B2;
+  }
+}
+:root[data-theme="dark"]{
+  color-scheme:dark;
+  --ground:#0C171E;--paper:#122029;--ink:#E6EEF0;--ink-2:#B3C3CA;--muted:#8499A3;--rule:#26394A;
+  --lake:#4FC0C8;--lake-soft:#133239;--flag:#EE8453;--flag-soft:#33211A;
+  --c-in:#23A08F;--c-metro:#DE6A3A;--c-oos:#5F7FD0;--c-other:#5C6B73;--bar:#8FA7B2;
+}
+*{box-sizing:border-box}
+body{background:var(--ground);color:var(--ink);font-family:var(--body);font-size:18px;line-height:1.6;padding-inline:16px;padding-block:0 48px}
+.wrap{max-width:980px;margin:0 auto}
+a{color:var(--lake);text-underline-offset:3px}
+a:focus-visible,button:focus-visible{outline:3px solid var(--lake);outline-offset:2px}
+h1,h2,h3{font-family:var(--display);text-wrap:balance;line-height:1.02;margin:0;letter-spacing:.005em}
+.eyebrow{font-family:var(--mono);font-size:12.5px;letter-spacing:.12em;text-transform:uppercase;color:var(--muted)}
+p{margin:0;max-width:65ch}
+.num{font-family:var(--mono);font-variant-numeric:tabular-nums}
+
+/* sister-site strip */
+.also{display:flex;justify-content:center;flex-wrap:wrap;gap:4px 10px;margin-inline:-16px;padding:9px 16px;background:var(--lake-soft);border-bottom:1px solid var(--rule);font-family:var(--mono);font-size:12.5px;letter-spacing:.1em;text-transform:uppercase;color:var(--ink-2);text-align:center}
+.also a{font-weight:600;text-decoration:none;white-space:nowrap}
+.also a:hover{text-decoration:underline}
+
+/* masthead */
+.mast{display:flex;justify-content:space-between;gap:12px;flex-wrap:wrap;padding-block:18px;border-bottom:2px solid var(--ink)}
+.mast span{font-family:var(--mono);font-size:12.5px;letter-spacing:.1em;text-transform:uppercase}
+
+/* hero */
+.hero{display:grid;grid-template-columns:1.35fr 1fr;gap:40px;padding-block:44px 40px;align-items:end}
+.hero h1{font-size:clamp(52px,9vw,104px);font-weight:800;text-transform:uppercase}
+.hero h1 em{font-style:normal;color:var(--flag)}
+.hero .lede{font-size:20px;color:var(--ink-2);margin-top:20px}
+.docket{background:var(--paper);border:1px solid var(--rule);padding:20px 22px;display:grid;gap:12px}
+.docket div{display:flex;justify-content:space-between;gap:16px;border-bottom:1px dashed var(--rule);padding-bottom:10px}
+.docket div:last-child{border-bottom:0;padding-bottom:0}
+.docket dt{color:var(--muted);font-size:15px}
+.docket dd{margin:0;font-family:var(--mono);font-size:15px;text-align:right}
+
+/* sections */
+section{padding-block:48px;border-top:1px solid var(--rule)}
+.sec-head{display:grid;grid-template-columns:200px 1fr;gap:32px;margin-bottom:28px}
+.sec-head h2{font-size:clamp(34px,5vw,54px);font-weight:800;text-transform:uppercase}
+.sec-head .eyebrow{padding-top:10px}
+.cols{display:grid;grid-template-columns:200px 1fr;gap:32px}
+.cols > .body{display:grid;gap:18px}
+
+/* receipt-style figures */
+.receipt{background:var(--paper);border:1px solid var(--rule);padding:24px;display:grid;gap:22px}
+.bigline{display:flex;flex-wrap:wrap;gap:28px}
+.bigline .fig{display:grid;gap:2px}
+.bigline .fig b{font-family:var(--display);font-size:56px;font-weight:800;line-height:1}
+.bigline .fig span{font-size:15px;color:var(--ink-2);max-width:22ch}
+.fig.flag b{color:var(--flag)}
+.fig.lake b{color:var(--lake)}
+
+/* stacked bar */
+.stack{display:flex;height:40px;gap:2px;border-radius:4px;overflow:hidden}
+.stack div{height:100%;position:relative;cursor:default}
+.stack div:hover{filter:brightness(1.08)}
+.legend{display:flex;flex-wrap:wrap;gap:10px 22px;font-size:15px}
+.legend span{display:inline-flex;align-items:center;gap:8px}
+.legend i{width:12px;height:12px;border-radius:3px;display:inline-block}
+.legend b{font-family:var(--mono);font-weight:600}
+
+/* cycle bars */
+.cycles{display:grid;gap:8px}
+.cyc{display:grid;grid-template-columns:56px 1fr 92px;gap:12px;align-items:center;font-size:15px}
+.cyc .track{height:18px}
+.cyc .b{height:100%;background:var(--bar);border-radius:0 4px 4px 0}
+.cyc.now .b{background:var(--flag)}
+.cyc .v{text-align:right}
+
+.donors{display:flex;flex-wrap:wrap;gap:8px}
+.donors span{font-family:var(--mono);font-size:13px;padding:5px 9px;border:1px solid var(--rule);background:var(--ground);border-radius:3px}
+.donors span.hl{border-color:var(--flag);color:var(--flag);background:var(--flag-soft)}
+
+.note{font-size:15px;color:var(--muted)}
+.cite{font-family:var(--mono);font-size:11.5px;font-weight:600;letter-spacing:.06em;text-transform:uppercase;text-decoration:none;white-space:nowrap;color:var(--lake);border:1px solid currentColor;border-radius:3px;padding:1px 5px;margin-left:4px;vertical-align:2px}
+.cite:hover{background:var(--lake-soft)}
+.cite::after{content:" \2197"}
+.callout{border-left:4px solid var(--flag);background:var(--flag-soft);padding:16px 20px;font-size:17px}
+
+/* votes */
+.votes{display:grid;gap:0;background:var(--paper);border:1px solid var(--rule)}
+.vote{display:grid;grid-template-columns:120px 1fr 90px;gap:20px;padding:18px 22px;border-bottom:1px solid var(--rule);align-items:start}
+.vote:last-child{border-bottom:0}
+.vote .id{font-family:var(--mono);font-size:14px;color:var(--muted);padding-top:3px}
+.vote h3{font-family:var(--body);font-size:19px;font-weight:600;line-height:1.35;margin-bottom:4px}
+.vote p{font-size:16px;color:var(--ink-2)}
+.pill{font-family:var(--mono);font-size:12.5px;font-weight:600;letter-spacing:.08em;padding:4px 8px;border-radius:3px;text-align:center;justify-self:end;white-space:nowrap}
+.pill.no{background:var(--flag-soft);color:var(--flag);border:1px solid var(--flag)}
+.pill.yes{background:var(--lake-soft);color:var(--lake);border:1px solid var(--lake)}
+
+/* history table */
+.tbl{overflow-x:auto;background:var(--paper);border:1px solid var(--rule)}
+table{border-collapse:collapse;width:100%;font-size:16px;min-width:520px}
+th,td{padding:11px 16px;text-align:left;border-bottom:1px solid var(--rule)}
+th{font-family:var(--mono);font-size:12px;letter-spacing:.1em;text-transform:uppercase;color:var(--muted);font-weight:400}
+td.n{font-family:var(--mono);font-variant-numeric:tabular-nums}
+tr.dem td{background:var(--lake-soft)}
+tr:last-child td{border-bottom:0}
+
+/* contrast */
+.versus{display:grid;grid-template-columns:1fr 1fr;border:1px solid var(--rule);background:var(--paper)}
+.versus > div{padding:22px 24px;display:grid;gap:14px;align-content:start}
+.versus > div + div{border-left:1px solid var(--rule)}
+.versus h3{font-size:34px;font-weight:800;text-transform:uppercase}
+.versus .who{font-size:15px;color:var(--ink-2)}
+.versus ul{margin:0;padding-left:18px;display:grid;gap:8px;font-size:16.5px}
+.versus .adams h3{color:var(--lake)}
+.rowlab{font-family:var(--mono);font-size:12px;letter-spacing:.1em;text-transform:uppercase;color:var(--muted)}
+
+.cta{background:var(--ink);color:var(--ground);padding:40px 32px;display:grid;gap:14px;margin-top:8px}
+.cta h2{font-size:clamp(40px,7vw,72px);font-weight:800;text-transform:uppercase;color:var(--ground)}
+.cta p{color:var(--ground);opacity:.85;font-size:19px}
+.cta .date{font-family:var(--mono);font-size:14px;letter-spacing:.1em;text-transform:uppercase;opacity:.75}
+
+.sources{font-size:14.5px;color:var(--ink-2)}
+.sources ol{padding-left:20px;display:grid;gap:6px;margin:12px 0 0}
+footer{border-top:2px solid var(--ink);margin-top:40px;padding-top:18px;font-size:14px;color:var(--muted);display:grid;gap:8px}
+.disclosure{font-family:var(--mono);font-size:13px;color:var(--ink-2);border:1px solid var(--rule);padding:10px 12px}
+
+#tip{position:fixed;pointer-events:none;background:var(--ink);color:var(--ground);font-family:var(--mono);font-size:13px;padding:6px 9px;border-radius:3px;z-index:5}
+
+@media (max-width:760px){
+  body{font-size:17px}
+  .hero{grid-template-columns:1fr;gap:28px;padding-block:32px}
+  .sec-head,.cols{grid-template-columns:1fr;gap:10px}
+  .versus{grid-template-columns:1fr}
+  .versus > div + div{border-left:0;border-top:1px solid var(--rule)}
+  .vote{grid-template-columns:1fr auto;gap:6px 14px}
+  .vote .id{grid-column:1/-1}
+  .bigline .fig b{font-size:46px}
+  .cta{padding:30px 22px}
+}
+@media (prefers-reduced-motion:no-preference){
+  .stack div,.cyc .b{transition:filter .15s}
+}
+</style>
+</head>
+<body>
+<div class="wrap">
+  <header class="mast">
+    <span>Chelan County Commissioner · District 2</span>
+    <span>General Election · Nov 3, 2026</span>
+  </header>
+
+  <div class="hero">
+    <div>
+      <p class="eyebrow">Know the record before you vote</p>
+      <h1>He runs the board.<br><em>Look at the books.</em></h1>
+      <p class="lede">Shon Smith has chaired the Chelan County Board of Commissioners since January 2025. On his watch the county has spent down its savings, filed its financial reports late and wrong, frozen hiring, and kept one of the state's most generous tax breaks for a few landowners. And the voters of his own district have never given him a majority.</p>
+    </div>
+    <dl class="docket">
+      <div><dt>Candidate</dt><dd>Shon Smith (R) · Cashmere</dd></div>
+      <div><dt>In office since</dt><dd>Jan 2023 · 1 term</dd></div>
+      <div><dt>Board chair</dt><dd>2025 and 2026</dd></div>
+      <div><dt>General fund gap, 2026 prelim.</dt><dd>−$3.3M</dd></div>
+      <div><dt>District 2 vote, 2022</dt><dd>Lost by 252</dd></div>
+      <div><dt>District 2 primary, 2026</dt><dd>46.4%</dd></div>
+    </dl>
+  </div>
+
+  <!-- BUDGET -->
+  <section id="budget">
+    <div class="sec-head">
+      <p class="eyebrow">1 · The budget</p>
+      <h2>Spending the savings</h2>
+    </div>
+    <div class="cols">
+      <div></div>
+      <div class="body">
+        <p>A county's budget is the one thing its commissioners fully control. In January 2025 Commissioner Brad Hawkins, a fellow Republican, told the board: "The last balanced budget, as I can recall from doing the research, is 2018. Basically, every year since then, the board has approved budget deficits."<a class="cite" href="https://www.kozi.com/post/balanced-budget-resolution-debated-by-chelan-county-commissioners" target="_blank" rel="noopener">KOZI</a> Smith joined that board in January 2023 and has chaired it since January 2025.</p>
+
+        <div class="receipt" aria-label="Chelan County general fund gaps">
+          <div class="bigline">
+            <div class="fig flag"><b class="num">$4.1M</b><span>drawn from savings to balance the 2025 budget</span></div>
+            <div class="fig flag"><b class="num">$3.3M</b><span>gap in the 2026 preliminary budget he seconded</span></div>
+            <div class="fig"><b class="num">0</b><span>seconds for four balanced-budget motions</span></div>
+          </div>
+          <p class="note">Budget figures from the county's own documents and news coverage. These are planned gaps, not audited results.</p>
+        </div>
+
+        <div class="votes">
+          <div class="vote">
+            <span class="id">Dec 11, 2023</span>
+            <div><h3>The 2024 budget</h3><p>Smith seconded adoption of a 2024 budget with a $2.6 million general-fund gap, filled from reserves.<a class="cite" href="https://www.co.chelan.wa.us/files/board-of-commissioners/archives/2023/12%20-%20December%2011%2612%20Minutes.pdf" target="_blank" rel="noopener">Minutes</a><a class="cite" href="https://www.wenatcheeworld.com/news/chelan-county-commissioners-pass-56-9m-2024-budget-reserve-funds-to-fill-2-6m-gap/article_c034bc2a-98a0-11ee-9664-036549d61b2e.html" target="_blank" rel="noopener">Wenatchee World</a></p></div>
+            <span class="pill no">SECONDED</span>
+          </div>
+          <div class="vote">
+            <span class="id">Nov 4, 2024</span>
+            <div><h3>The 2025 budget</h3><p>Smith made the motion to approve the 2025 preliminary budget. The county needed more than $4 million from its savings to balance it.<a class="cite" href="https://www.co.chelan.wa.us/files/board-of-commissioners/archives/2024/11-4-24%20%26%2011-5-24%20Minutesdocx.pdf" target="_blank" rel="noopener">Minutes</a><a class="cite" href="https://kpq.com/commissioner-hawkins-wants-balanced-budget-for-chelan-county/" target="_blank" rel="noopener">KPQ</a></p></div>
+            <span class="pill no">MADE THE MOTION</span>
+          </div>
+          <div class="vote">
+            <span class="id">Jan 27, 2025</span>
+            <div><h3>Four motions to balance the budget</h3><p>Hawkins moved to set a goal of a balanced general fund, to hold workshops on cutting spending 3% and raising revenue 3%, and to analyze ten years of budgets against what was actually spent. With Smith presiding as Chair, all four died for lack of a second. Smith said he was "a little disappointed, a little frustrated by this resolution."<a class="cite" href="https://www.co.chelan.wa.us/files/board-of-commissioners/archives/2025/01-27-25%20%26%2001-28-24%20BOCC%20Minutes.pdf" target="_blank" rel="noopener">Minutes</a><a class="cite" href="https://www.kozi.com/post/balanced-budget-resolution-debated-by-chelan-county-commissioners" target="_blank" rel="noopener">KOZI</a></p></div>
+            <span class="pill no">NO SECOND</span>
+          </div>
+          <div class="vote">
+            <span class="id">Nov 3, 2025</span>
+            <div><h3>The 2026 budget</h3><p>Smith seconded a preliminary budget that spends $61.95 million against $58.66 million in revenue. It passed 2–1. Hawkins voted no.<a class="cite" href="https://www.co.chelan.wa.us/files/board-of-commissioners/archives/2025/11-03-25%20%26%2011-04-25%20BOCC%20Minutes.pdf" target="_blank" rel="noopener">Minutes</a><a class="cite" href="https://www.co.chelan.wa.us/news/article/county-passes-2026-preliminary-budget" target="_blank" rel="noopener">Chelan County</a></p></div>
+            <span class="pill no">SECONDED</span>
+          </div>
+        </div>
+        <p><strong>Clint Strand chairs the Finance Committee of the Leavenworth City Council. His pledge: "we need to make sure we can pay for what we promise. That means making sure our budget balances."</strong><a class="cite" href="https://www.electclintstrand.com/" target="_blank" rel="noopener">Strand</a></p>
+      </div>
+    </div>
+  </section>
+
+  <!-- BOOKS -->
+  <section id="books">
+    <div class="sec-head">
+      <p class="eyebrow">2 · The books</p>
+      <h2>Late, and wrong</h2>
+    </div>
+    <div class="cols">
+      <div></div>
+      <div class="body">
+        <p>Every Washington county must file an annual financial report with the State Auditor within 150 days of the end of its year. Chelan County filed its 2023 report <strong>398 days late</strong>. The State Auditor found that "County leadership did not dedicate the necessary resources to submit the annual report on time and did not respond to our Office's outreach efforts." That report is addressed to the Board of Commissioners.<a class="cite" href="https://portal.sao.wa.gov/ReportSearch/Home/ViewReportFile?arn=1038652&amp;isFinding=false&amp;sp=false" target="_blank" rel="noopener">State Auditor</a></p>
+        <p>The reports the county did file had serious errors. The State Auditor found a "material weakness" in how the county prepares its financial statements in both 2022 and 2023:</p>
+        <div class="votes">
+          <div class="vote">
+            <span class="id">2022 audit</span>
+            <div><h3>A $24 million fund left off the books</h3><p>The county left a $24 million investment trust fund out of its statements and overstated its road-fund inventory by about $950,000.<a class="cite" href="https://portal.sao.wa.gov/ReportSearch/Home/ViewReportFile?arn=1035427&amp;isFinding=false&amp;sp=false" target="_blank" rel="noopener">State Auditor</a></p></div>
+            <span class="pill no">MATERIAL WEAKNESS</span>
+          </div>
+          <div class="vote">
+            <span class="id">2023 audit</span>
+            <div><h3>A $7.1 million federal grant missed</h3><p>The county left a $7,135,749 federal grant off its list of federal spending, misstated ten other grants, and overstated road-fund inventory by $1,204,600.<a class="cite" href="https://portal.sao.wa.gov/ReportSearch/Home/ViewReportFile?arn=1039039&amp;isFinding=false&amp;sp=false" target="_blank" rel="noopener">State Auditor</a></p></div>
+            <span class="pill no">MATERIAL WEAKNESS</span>
+          </div>
+        </div>
+        <p>Both years, the State Auditor gave the same cause: the county "had not filled the position responsible for preparing the financial statements." The errors were corrected before the audits were finished.</p>
+        <div class="callout">In 2025 the elected County Auditor, Skip Moore, asked the board to fund that position. The board put off the decision three times in one month,<a class="cite" href="https://www.wenatcheeworld.com/news/local/chelan-county-auditor-threatens-early-exit-as-commissioners-delay-staffing-decision/article_34ca59c7-4661-4308-bf1a-7662d4696cbe.html" target="_blank" rel="noopener">Wenatchee World</a> then funded it at <strong>$59,723 against his $112,789 request</strong>. Moore said he would not run again, citing the board's repeated refusals to give him staff.<a class="cite" href="https://kpq.com/chelan-county-approves-deputy-auditor-position/" target="_blank" rel="noopener">KPQ</a> He retired this April.<a class="cite" href="https://kpq.com/chelan-auditor-transition-2026/" target="_blank" rel="noopener">KPQ</a> Smith chaired the board through all of it.</div>
+        <p>In its written answer to the State Auditor, the county promised that "the County Commissioners are committed to meeting the deadlines starting in 2025."<a class="cite" href="https://portal.sao.wa.gov/ReportSearch/Home/ViewReportFile?arn=1038652&amp;isFinding=false&amp;sp=false" target="_blank" rel="noopener">State Auditor</a> The chair of the board is the one who answers for that promise.</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- SQUEEZE -->
+  <section id="squeeze">
+    <div class="sec-head">
+      <p class="eyebrow">3 · The squeeze</p>
+      <h2>Deficits first. Then a hiring freeze.</h2>
+    </div>
+    <div class="cols">
+      <div></div>
+      <div class="body">
+        <p>Years of deficit budgets come due. On November 3, 2025, Smith and the other two commissioners signed a letter freezing all county hiring through the end of 2026. "We understand this decision may impact departments and teams," it told department heads.<a class="cite" href="https://www.co.chelan.wa.us/news/article/county-passes-2026-preliminary-budget" target="_blank" rel="noopener">Chelan County</a></p>
+        <p>The cuts reached Chelan Douglas CASA, the volunteer advocates who speak for foster children in court. Its county funding was cut 20%. When a reporter asked why, Hawkins answered. Smith did not respond.<a class="cite" href="https://dominickb.substack.com/p/how-recent-chelan-county-budget-cuts" target="_blank" rel="noopener">Dominick Bonny</a></p>
+        <p>By August the Sheriff was telling the board, "Certainly, I recognize our employees being overwhelmed," and warning of burnout and people leaving.<a class="cite" href="https://www.ncw.news/stories/sheriff-gets-one-of-two-requested-positions-amid-hiring-freeze,186364" target="_blank" rel="noopener">Ward Media</a> The County Auditor had already quit over staffing.</p>
+        <div class="callout">Smith said it himself at that August meeting: "Losing a person is a lot more expensive than supporting a person."<a class="cite" href="https://www.ncw.news/stories/sheriff-gets-one-of-two-requested-positions-amid-hiring-freeze,186364" target="_blank" rel="noopener">Ward Media</a> He is right. But the budgets he moved and seconded are how the county ended up in a hiring freeze.</div>
+        <p><strong>Clint Strand wants "a better experience for you working with the county, and for the folks working inside the county."</strong><a class="cite" href="https://www.electclintstrand.com/" target="_blank" rel="noopener">Strand</a></p>
+      </div>
+    </div>
+  </section>
+
+  <!-- TAX BREAK -->
+  <section id="taxbreak">
+    <div class="sec-head">
+      <p class="eyebrow">4 · Who pays</p>
+      <h2>A tax break for 90 owners. The rest of us cover it.</h2>
+    </div>
+    <div class="cols">
+      <div></div>
+      <div class="body">
+        <p>Chelan County's Public Benefit Rating System cuts property taxes for landowners who keep land as open space. Until this June it was the only program in Washington that could cut a landowner's taxes by up to 100%, and its rules had not changed since 2014.<a class="cite" href="https://www.co.chelan.wa.us/news/article/bocc-revamps-public-benefit-rating-system" target="_blank" rel="noopener">Chelan County</a></p>
+
+        <div class="receipt" aria-label="Public Benefit Rating System, county figures">
+          <div class="bigline">
+            <div class="fig flag"><b class="num">~90</b><span>owners get the break</span></div>
+            <div class="fig"><b class="num">192</b><span>properties enrolled</span></div>
+            <div class="fig flag"><b class="num">$250K</b><span>in tax breaks every year</span></div>
+          </div>
+          <p class="note">Chelan County's figures, July 2026. The total covers every district that taxes the land: schools, fire, roads and the county itself.</p>
+        </div>
+
+        <p>That money doesn't go away. Most property-tax districts collect a set dollar amount, so when a few owners pay less, everyone else in those districts pays more. Smith knows it. When the board finally capped the break at 75% this June, he called it "a more equitable system for the taxpayers who are making up the difference."<a class="cite" href="https://www.co.chelan.wa.us/news/article/bocc-revamps-public-benefit-rating-system" target="_blank" rel="noopener">Chelan County</a> He had been a commissioner for three and a half years before that fix, which came in his re-election year, and he signed it as Chair.<a class="cite" href="https://www.co.chelan.wa.us/files/community-development/documents/ZTA%2025-101%20Signed%20Resolution%20_2026-51.pdf" target="_blank" rel="noopener">Resolution 2026-51</a></p>
+        <p class="note">The break lowers the land's taxable value while it stays in the program; it is not a permanent exemption.</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- DISTRICT -->
+  <section id="district">
+    <div class="sec-head">
+      <p class="eyebrow">5 · Representation</p>
+      <h2>District 2 didn't choose him</h2>
+    </div>
+    <div class="cols">
+      <div></div>
+      <div class="body">
+        <p>Only District 2 voters vote in the August primary for this seat. In November, every voter in Chelan County decides it.<a class="cite" href="https://app.leg.wa.gov/RCW/default.aspx?cite=36.32.040" target="_blank" rel="noopener">RCW 36.32.040</a> Smith has run for this seat three times. In every District 2 vote on record, most of the district's voters chose someone else.</p>
+        <div class="tbl">
+          <table>
+            <thead><tr><th>Election</th><th>Who voted</th><th>Smith in District 2</th><th>What happened</th></tr></thead>
+            <tbody>
+              <tr><td class="n">2018 primary</td><td>District 2 only</td><td class="n">47.3%</td><td>Advanced, then lost the county to Bob Bugert</td></tr>
+              <tr><td class="n">2022 primary</td><td>District 2 only</td><td class="n">43.1%</td><td>Finished second to Anne Hessburg</td></tr>
+              <tr><td class="n">2022 general</td><td>Whole county</td><td class="n">49.0%</td><td>Lost District 2 by 252 votes. Won the seat by 330 on District 3's votes</td></tr>
+              <tr class="dem"><td class="n">2026 primary</td><td>District 2 only</td><td class="n">46.4%</td><td>53.6% voted for someone else. Clint Strand: 45.1%</td></tr>
+            </tbody>
+          </table>
+        </div>
+        <p class="note">Washington Secretary of State results. The 2022 general is added up by precinct using the county's 2022 commissioner-district map. 2026 is the certified August 4 primary: Smith 4,368 of 9,417 votes.<a class="cite" href="https://results.vote.wa.gov/results/20180807/export/20180807_ChelanPrecincts.csv" target="_blank" rel="noopener">2018 primary</a><a class="cite" href="https://results.vote.wa.gov/results/20220802/export/20220802_ChelanPrecincts.csv" target="_blank" rel="noopener">2022 primary</a><a class="cite" href="https://results.vote.wa.gov/results/20221108/export/20221108_ChelanPrecincts.csv" target="_blank" rel="noopener">2022 general</a></p>
+      </div>
+    </div>
+  </section>
+
+  <!-- MONEY -->
+  <section id="money">
+    <div class="sec-head">
+      <p class="eyebrow">6 · The campaign</p>
+      <h2>This year, you can't see who's paying</h2>
+    </div>
+    <div class="cols">
+      <div></div>
+      <div class="body">
+        <p>In 2018 and 2022 Smith reported every contribution: $32,549 and $33,154 raised. For 2026 he chose "mini reporting," which caps a campaign at $7,000 and requires no report of who gave. That is legal. It also means voters cannot see who is funding the chair of the county board.<a class="cite" href="https://data.wa.gov/resource/3h9x-7bvm.json?$where=filer_id%20in(%27SMITS%20%20815%27,%27STRAC%20%20826%27)" target="_blank" rel="noopener">PDC data</a><a class="cite" href="https://www.pdc.wa.gov/registration-reporting/candidates-committees/registration-reporting-basics/choosing-mini-or-full-reporting" target="_blank" rel="noopener">PDC rules</a></p>
+        <p><strong>Clint Strand reports in full: $15,095 raised as of September 21, every donor listed for anyone to look up.</strong><a class="cite" href="https://data.wa.gov/resource/3h9x-7bvm.json?$where=filer_id%20in(%27SMITS%20%20815%27,%27STRAC%20%20826%27)" target="_blank" rel="noopener">PDC data</a></p>
+      </div>
+    </div>
+  </section>
+
+  <!-- CONTRAST -->
+  <section id="choice">
+    <div class="sec-head">
+      <p class="eyebrow">7 · The choice</p>
+      <h2>Side by side</h2>
+    </div>
+    <div class="versus">
+      <div>
+        <p class="rowlab">Incumbent</p>
+        <h3>Shon Smith (R)</h3>
+        <p class="who">Cashmere · restaurant owner · County Commissioner since 2023, board chair 2025–2026</p>
+        <ul>
+          <li>Moved or seconded three straight deficit budgets</li>
+          <li>Presided as four balanced-budget motions died without a second</li>
+          <li>Chaired the board through late, error-filled financial reports</li>
+          <li>Signed the countywide hiring freeze</li>
+          <li>Three and a half years before capping a tax break for about 90 owners</li>
+          <li>Never won a majority of District 2's voters</li>
+          <li>No donor reports in 2026</li>
+        </ul>
+      </div>
+      <div class="adams">
+        <p class="rowlab">Challenger</p>
+        <h3>Clint Strand (D)</h3>
+        <p class="who">Leavenworth · Executive Director, Wenatchee Valley College Foundation · Leavenworth City Council since 2017</p>
+        <ul>
+          <li>Chairs Leavenworth's Finance Committee</li>
+          <li>Manages a $19 million foundation portfolio</li>
+          <li>A balanced budget: "pay for what we promise"</li>
+          <li>Accountability for residents and for county staff</li>
+          <li>Housing solutions with regional partners</li>
+          <li>Past work on Leavenworth's Affordable Housing committee</li>
+          <li>Every donor disclosed</li>
+        </ul>
+      </div>
+    </div>
+  </section>
+
+  <div class="cta">
+    <p class="date">Ballots due Tuesday, November 3, 2026 · 8 p.m.</p>
+    <h2>Vote Clint Strand</h2>
+    <p>Chelan County Commissioner, District 2. Every voter in Chelan County votes in this race. Check your registration and track your ballot at VoteWA.gov.</p>
+  </div>
+
+  <section class="sources" id="sources">
+    <p class="eyebrow">Sources</p>
+    <ol>
+      <li>Board of County Commissioners minutes: <a href="https://www.co.chelan.wa.us/files/board-of-commissioners/archives/2023/12%20-%20December%2011%2612%20Minutes.pdf">Dec 11–12, 2023</a>; <a href="https://www.co.chelan.wa.us/files/board-of-commissioners/archives/2024/11-4-24%20%26%2011-5-24%20Minutesdocx.pdf">Nov 4–5, 2024</a>; <a href="https://www.co.chelan.wa.us/files/board-of-commissioners/archives/2025/01-27-25%20%26%2001-28-24%20BOCC%20Minutes.pdf">Jan 27–28, 2025</a>; <a href="https://www.co.chelan.wa.us/files/board-of-commissioners/archives/2025/06-09-25%20%26%2006-10-25%20BOCC%20Minutes%20.pdf">June 9–10, 2025</a>; <a href="https://www.co.chelan.wa.us/files/board-of-commissioners/archives/2025/11-03-25%20%26%2011-04-25%20BOCC%20Minutes.pdf">Nov 3–4, 2025</a>.</li>
+      <li>Budget coverage: <a href="https://www.wenatcheeworld.com/news/chelan-county-commissioners-pass-56-9m-2024-budget-reserve-funds-to-fill-2-6m-gap/article_c034bc2a-98a0-11ee-9664-036549d61b2e.html">Wenatchee World, Dec 2023</a>; <a href="https://www.kozi.com/post/balanced-budget-resolution-debated-by-chelan-county-commissioners">KOZI, Jan 29, 2025</a>; <a href="https://kpq.com/commissioner-hawkins-wants-balanced-budget-for-chelan-county/">KPQ, Feb 4, 2025</a>; <a href="https://www.co.chelan.wa.us/news/article/county-passes-2026-preliminary-budget">Chelan County, "County passes 2026 preliminary budget"</a>.</li>
+      <li>Washington State Auditor: <a href="https://portal.sao.wa.gov/ReportSearch/Home/ViewReportFile?arn=1035427&amp;isFinding=false&amp;sp=false">Report 1035427, 2022 financial statements (Sept 9, 2024)</a>; <a href="https://portal.sao.wa.gov/ReportSearch/Home/ViewReportFile?arn=1038652&amp;isFinding=false&amp;sp=false">Report 1038652, accountability audit 2022–2023 (Dec 22, 2025)</a>; <a href="https://portal.sao.wa.gov/ReportSearch/Home/ViewReportFile?arn=1039039&amp;isFinding=false&amp;sp=false">Report 1039039, 2023 financial statements (Jan 30, 2026)</a>.</li>
+      <li>County Auditor staffing: <a href="https://www.wenatcheeworld.com/news/local/chelan-county-auditor-threatens-early-exit-as-commissioners-delay-staffing-decision/article_34ca59c7-4661-4308-bf1a-7662d4696cbe.html">Wenatchee World, June 3, 2025</a>; <a href="https://kpq.com/chelan-county-approves-deputy-auditor-position/">KPQ, June 20, 2025</a>; <a href="https://kpq.com/chelan-auditor-transition-2026/">KPQ, Moore retirement</a>.</li>
+      <li>Hiring freeze and staffing: Board of Commissioners letter to department heads, Nov 3, 2025; <a href="https://dominickb.substack.com/p/how-recent-chelan-county-budget-cuts">Dominick Bonny, Apr 18, 2026</a>; <a href="https://www.ncw.news/stories/sheriff-gets-one-of-two-requested-positions-amid-hiring-freeze,186364">Ward Media, Aug 21, 2026</a>.</li>
+      <li>Public Benefit Rating System: <a href="https://www.co.chelan.wa.us/news/article/bocc-revamps-public-benefit-rating-system">Chelan County, "BOCC revamps Public Benefit Rating System," July 22, 2026</a>; <a href="https://www.co.chelan.wa.us/files/community-development/documents/ZTA%2025-101%20Signed%20Resolution%20_2026-51.pdf">Resolution 2026-51</a>.</li>
+      <li>Election results: Washington Secretary of State Chelan precinct results, <a href="https://results.vote.wa.gov/results/20180807/export/20180807_ChelanPrecincts.csv">Aug 7, 2018 primary</a>, <a href="https://results.vote.wa.gov/results/20220802/export/20220802_ChelanPrecincts.csv">Aug 2, 2022 primary</a>, <a href="https://results.vote.wa.gov/results/20221108/export/20221108_ChelanPrecincts.csv">Nov 8, 2022 general</a>; certified Aug 4, 2026 primary. Election method: <a href="https://app.leg.wa.gov/RCW/default.aspx?cite=36.32.040">RCW 36.32.040</a>.</li>
+      <li>Campaign finance: WA Public Disclosure Commission, <a href="https://data.wa.gov/resource/3h9x-7bvm.json?$where=filer_id%20in(%27SMITS%20%20815%27,%27STRAC%20%20826%27)">campaign summaries on data.wa.gov</a>, retrieved Sept 27, 2026; <a href="https://www.pdc.wa.gov/registration-reporting/candidates-committees/registration-reporting-basics/choosing-mini-or-full-reporting">PDC, mini vs. full reporting</a>.</li>
+      <li>Clint Strand: <a href="https://www.electclintstrand.com/">electclintstrand.com</a>; <a href="https://www.wvc.edu/news/2025-2026/clint-strand-named-foundation-executive-director.aspx">Wenatchee Valley College</a>.</li>
+    </ol>
+  </section>
+
+  <footer>
+    <div class="disclosure">Sponsored by <a href="https://indivisible.org/" target="_blank" rel="noopener">Confluence Indivisible</a>, Wenatchee and East Wenatchee, WA. No candidate authorized this ad.</div>
+    <p>This page is not affiliated with Shon Smith or Chelan County. Figures current as of September 27, 2026.</p>
+  </footer>
+</div>
+<div id="tip" hidden></div>
+<script>
+(function(){
+  var tip=document.getElementById('tip');
+  document.querySelectorAll('[data-tip]').forEach(function(el){
+    el.addEventListener('mousemove',function(e){
+      tip.textContent=el.getAttribute('data-tip');tip.hidden=false;
+      var x=Math.min(e.clientX+14,window.innerWidth-tip.offsetWidth-8);
+      tip.style.left=x+'px';tip.style.top=(e.clientY+16)+'px';
+    });
+    el.addEventListener('mouseleave',function(){tip.hidden=true;});
+  });
+})();
+</script>
+</body>
+</html>
